@@ -10,18 +10,15 @@ h1, h2, h3 {
 
 p {
   color: #8f8f8f;
-  font-size: 1.5rem;
 }
 
 /* headers */
-
 .big-heading {
   font-size: 4rem;
   color: white;
 }
 
 /* Containers */
-
 .container-fluid {
   padding: 7% 15%;
 }
@@ -51,7 +48,7 @@ p {
 /* Tittle container*/
 #tittle {
   background-color: #ff4c68;
-  }
+}
 
 #tittle .big-heading {
   text-align: left;
@@ -83,22 +80,6 @@ p {
   right: 30%;
 }
 
-/* Testimonials  */
-#testimonials {
-  background-color: #ef8172;
-  color: white;
-}
-
-.testimonial-text {
-  font-size: 3.5rem;
-}
-
-
-.testimonial-img {
-  width: 10%;
-  border-radius: 100%;
-  margin: 30px;
-}
 
 /* Features */
 #features {
@@ -113,6 +94,7 @@ p {
 #features p {
   padding: 1%;
   margin-top: 7%;
+  font-size: 1.5rem;
 }
 
 .icon {
@@ -123,6 +105,22 @@ p {
 
 .icon:hover {
   color: #ff4c68;
+}
+
+/* Testimonials  */
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-text {
+  font-size: 3.5rem;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 30px;
 }
 
 
@@ -138,9 +136,12 @@ p {
 }
 
 /* Pricing */
-
 .pricing-title {
   font-size: 3rem;
+}
+
+.pricing-txt {
+  font-size: 1.5rem;
 }
 
 .pricing-header {
@@ -159,17 +160,8 @@ p {
   margin-top: 4%;
 }
 
-/* media querys */
-@media (max-width:990px) {
-  .dog-photo {
-    width: 60%;
-    transform: rotate(0);
-    position: static;
-  }
-
-  #features {
-    position: static;
-  }
+.price-details {
+  font-size: 1rem;
 }
 
 /* Call to Action */
@@ -177,26 +169,45 @@ p {
   background-color: #ff4c68;
 }
 
-
 #cta button {
   margin: 8% 2% 0;
   font-size: 2rem;
 }
 
 /* Footer */
-
 #footer {
   padding: 4% 0 1%;
-  }
+}
 
 .footer-icons {
   font-size: 1.5rem;
-  }
+}
 
 .footer-icons i {
   margin: 1% 1% 3%;
 }
 
-#footer p {
-  font-size: 1rem;
+/* media querys */
+@media (max-width:990px) {
+  nav {
+    text-align: right;
+  }
+  #tittle .big-heading {
+    text-align: center;
+  }
+
+  #tittle .tittle-box {
+    text-align: center;
+      margin: 2rem 0;
+  }
+
+  .dog-photo {
+    width: 50%;
+    transform: rotate(0);
+    position: static;
+  }
+
+  #features {
+    position: static;
+  }
 }
